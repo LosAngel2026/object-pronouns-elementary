@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unit 59 — Object pronouns</title>
+<style>
+:root{color-scheme:light;--ink:#292b35;--muted:#737786;--accent:#d94f43;--line:#e5e6eb;--good:#18794e;--bad:#b42318;--soft:#fff6f3}
+*{box-sizing:border-box}
+body{margin:0;background:#f5f6f8;color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:900px;margin:32px auto;padding:0 18px 50px}
+header{background:white;border-radius:18px;padding:25px 28px;margin-bottom:18px;box-shadow:0 3px 14px #20243a0b}
+h1{margin:0 0 5px;font-size:29px;color:var(--accent)}
+.sub{color:var(--muted)}
+section{background:white;border-radius:16px;padding:22px 25px;margin:16px 0;box-shadow:0 3px 14px #20243a0b}
+h2{font-size:19px;margin:0 0 5px}
+.instruction{color:var(--muted);margin:0 0 17px}
+.item{display:flex;gap:10px;align-items:flex-start;margin:12px 0;flex-wrap:wrap}
+.num{color:var(--muted);min-width:22px}
+.sentence{flex:1;min-width:250px}
+input.answer{font:inherit;color:var(--ink);border:0;border-bottom:2px solid #c9cbd3;background:#fffdfc;padding:2px 5px;min-width:105px;max-width:100%;border-radius:4px 4px 0 0;outline:none}
+input.answer:focus{border-bottom-color:var(--accent);background:#fff6f3}
+input.answer.correct{border-bottom-color:var(--good);background:#effaf4}
+input.answer.wrong{border-bottom-color:var(--bad);background:#fff1f0}
+.feedback{font-size:13px;min-width:50px}
+.feedback.good{color:var(--good)}.feedback.bad{color:var(--bad)}
+.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:20px 0}
+button{border:0;border-radius:10px;padding:11px 17px;font:600 15px system-ui;cursor:pointer}
+#check{background:var(--accent);color:white}
+#reset{background:#e9eaf0;color:var(--ink)}
+#result{font-weight:700;margin-left:4px}
+.note{font-size:13px;color:var(--muted)}
+@media(max-width:560px){section{padding:18px 15px}.item{gap:6px}.sentence{min-width:100%}input.answer{min-width:95px}}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Unit 59 — Object pronouns</h1>
+  <div class="sub">Complete the sentences. Type your answers and check them.</div>
+</header>
+
+<section data-ex="59.1">
+<h2>1. Complete the sentences with <em>him / her / them</em>.</h2>
+<div class="item"><span class="num">1</span><div class="sentence">I don’t know those girls. Do you know <input class="answer" data-answers="them">?</div></div>
+<div class="item"><span class="num">2</span><div class="sentence">I don’t know that man. Do you know <input class="answer" data-answers="him">?</div></div>
+<div class="item"><span class="num">3</span><div class="sentence">I don’t know those people. Do you know <input class="answer" data-answers="them">?</div></div>
+<div class="item"><span class="num">4</span><div class="sentence">I don’t know David’s wife. Do you know <input class="answer" data-answers="her">?</div></div>
+<div class="item"><span class="num">5</span><div class="sentence">I don’t know Mr Stevens. Do you know <input class="answer" data-answers="him">?</div></div>
+<div class="item"><span class="num">6</span><div class="sentence">I don’t know Sarah’s parents. Do you know <input class="answer" data-answers="them">?</div></div>
+<div class="item"><span class="num">7</span><div class="sentence">I don’t know the woman in the black coat. Do you know <input class="answer" data-answers="her">?</div></div>
+</section>
+
+<section data-ex="59.2">
+<h2>2. Complete the sentences. Use <em>I / me / you / she / her</em> etc.</h2>
+<div class="item"><span class="num">1</span><div class="sentence">I want to see her, but <input class="answer" data-answers="she"> doesn’t want to see <input class="answer" data-answers="me">.</div></div>
+<div class="item"><span class="num">2</span><div class="sentence">They want to see me, but <input class="answer" data-answers="i"> don’t want to see <input class="answer" data-answers="them">.</div></div>
+<div class="item"><span class="num">3</span><div class="sentence">She wants to see him, but <input class="answer" data-answers="he"> doesn’t want to see <input class="answer" data-answers="her">.</div></div>
+<div class="item"><span class="num">4</span><div class="sentence">We want to see them, but <input class="answer" data-answers="they"> don’t want to see <input class="answer" data-answers="us">.</div></div>
+<div class="item"><span class="num">5</span><div class="sentence">He wants to see us, but <input class="answer" data-answers="we"> don’t want to see <input class="answer" data-answers="him">.</div></div>
+<div class="item"><span class="num">6</span><div class="sentence">They want to see her, but <input class="answer" data-answers="she"> doesn’t want to see <input class="answer" data-answers="them">.</div></div>
+<div class="item"><span class="num">7</span><div class="sentence">I want to see them, but <input class="answer" data-answers="they"> don’t want to see <input class="answer" data-answers="me">.</div></div>
+<div class="item"><span class="num">8</span><div class="sentence">You want to see her, but <input class="answer" data-answers="she"> doesn’t want to see <input class="answer" data-answers="you">.</div></div>
+</section>
+
+<section data-ex="59.3">
+<h2>3. Write sentences beginning <em>I like … / I don’t like … / Do you like …?</em></h2>
+<div class="item"><span class="num">1</span><div class="sentence">I don’t eat tomatoes. <input class="answer" data-answers="i don’t like them|i don't like them">.</div></div>
+<div class="item"><span class="num">2</span><div class="sentence">George is a very nice man. I like <input class="answer" data-answers="him">.</div></div>
+<div class="item"><span class="num">3</span><div class="sentence">This jacket isn’t very nice. I don’t <input class="answer" data-answers="like it">.</div></div>
+<div class="item"><span class="num">4</span><div class="sentence">This is my new car. Do <input class="answer" data-answers="you like it">?</div></div>
+<div class="item"><span class="num">5</span><div class="sentence">Mrs Clark is not very friendly. I <input class="answer" data-answers="don’t like her|don't like her">.</div></div>
+<div class="item"><span class="num">6</span><div class="sentence">These are my new shoes. <input class="answer" data-answers="do you like them">?</div></div>
+</section>
+
+<section data-ex="59.4">
+<h2>4. Complete the sentences. Use <em>I / me / he / him</em> etc.</h2>
+<div class="item"><span class="num">1</span><div class="sentence">Who is that woman? Why are you looking at <input class="answer" data-answers="her">?</div></div>
+<div class="item"><span class="num">2</span><div class="sentence">‘Do you know that man?’ ‘Yes, I work with <input class="answer" data-answers="him">.’</div></div>
+<div class="item"><span class="num">3</span><div class="sentence">Where are the tickets? I can’t find <input class="answer" data-answers="them">.</div></div>
+<div class="item"><span class="num">4</span><div class="sentence">I can’t find my keys. Where are <input class="answer" data-answers="they">?</div></div>
+<div class="item"><span class="num">5</span><div class="sentence">We’re going out. You can come with <input class="answer" data-answers="us">.</div></div>
+<div class="item"><span class="num">6</span><div class="sentence">I’ve got a new motorbike. Do you want to see <input class="answer" data-answers="it">?</div></div>
+<div class="item"><span class="num">7</span><div class="sentence">Maria likes music. <input class="answer" data-answers="she"> plays the piano.</div></div>
+<div class="item"><span class="num">8</span><div class="sentence">I don’t like dogs. I’m afraid of <input class="answer" data-answers="them">.</div></div>
+<div class="item"><span class="num">9</span><div class="sentence">I’m talking to you. Please listen to <input class="answer" data-answers="me">.</div></div>
+<div class="item"><span class="num">10</span><div class="sentence">Where is Anna? I want to talk to <input class="answer" data-answers="her">.</div></div>
+<div class="item"><span class="num">11</span><div class="sentence">You can have these CDs. I don’t want <input class="answer" data-answers="them">.</div></div>
+<div class="item"><span class="num">12</span><div class="sentence">My brother has a new job, but <input class="answer" data-answers="he"> doesn’t like <input class="answer" data-answers="it"> very much.</div></div>
+</section>
+
+<section data-ex="59.5">
+<h2>5. Complete the sentences.</h2>
+<div class="item"><span class="num">1</span><div class="sentence">I need that book. Can you <input class="answer" data-answers="give it to me">?</div></div>
+<div class="item"><span class="num">2</span><div class="sentence">He wants the key. Can you give <input class="answer" data-answers="it to him|him the key">?</div></div>
+<div class="item"><span class="num">3</span><div class="sentence">She wants the keys. Can you <input class="answer" data-answers="give them to her|give her the keys">?</div></div>
+<div class="item"><span class="num">4</span><div class="sentence">I need my bag. Can you <input class="answer" data-answers="give it to me|give me my bag">?</div></div>
+<div class="item"><span class="num">5</span><div class="sentence">They want the money. Can you <input class="answer" data-answers="give it to them|give them the money">?</div></div>
+<div class="item"><span class="num">6</span><div class="sentence">We want the pictures. Can you <input class="answer" data-answers="give them to us|give us the pictures">?</div></div>
+</section>
+
+<div class="controls">
+<button id="check" type="button">Check answers</button>
+<button id="reset" type="button">Reset</button>
+<span id="result" aria-live="polite"></span>
+</div>
+</main>
+<script>
+const normalize = s => s.toLowerCase().replace(/[’‘]/g,"'").replace(/[.!?]/g,"").replace(/\s+/g," ").trim();
+document.getElementById('check').addEventListener('click',()=>{
+  const fields=[...document.querySelectorAll('input.answer')];
+  let correct=0;
+  fields.forEach(input=>{
+    const accepted=input.dataset.answers.split('|').map(normalize);
+    const ok=accepted.includes(normalize(input.value));
+    input.classList.toggle('correct',ok);
+    input.classList.toggle('wrong',!ok);
+    let feedback=input.parentElement.querySelector('.feedback');
+    if(!feedback){feedback=document.createElement('span');feedback.className='feedback';input.insertAdjacentElement('afterend',feedback);}
+    feedback.textContent=ok?'✓':'✗';
+    feedback.className='feedback '+(ok?'good':'bad');
+    if(ok)correct++;
+  });
+  document.getElementById('result').textContent=`Score: ${correct} out of ${fields.length}`;
+});
+document.getElementById('reset').addEventListener('click',()=>{
+  document.querySelectorAll('input.answer').forEach(input=>{
+    input.value='';input.classList.remove('correct','wrong');
+    const f=input.parentElement.querySelector('.feedback');if(f)f.remove();
+  });
+  document.getElementById('result').textContent='';
+});
+</script>
+</body>
+</html>
